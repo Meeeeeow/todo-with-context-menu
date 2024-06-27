@@ -1,0 +1,29 @@
+.task-item {
+    border: 1px solid rgb(32, 166, 150);
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.task-item:hover {
+    background-color: grey;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1000px) {
+    .task-item {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 600px) {
+    .task-item {
+        width: 80%;
+        margin: 15px auto;
+    }
+  }
+

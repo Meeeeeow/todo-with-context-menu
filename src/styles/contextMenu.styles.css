@@ -1,0 +1,32 @@
+.context-menu {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 5px 0;
+  list-style-type: none;
+  z-index: 100;
+}
+
+.context-menu li {
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+.context-menu li:hover {
+  background-color: #136cb4;
+  color:white;
+}
+
+@media (max-width: 1000px) {
+  .context-menu {
+      width: 90vw;
+      left: 5vw;
+  }
+}
+@media (max-width: 600px) {
+  .context-menu {
+      width: 45vw;
+      left: 3vw;
+  }
+}
